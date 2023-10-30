@@ -33,7 +33,7 @@ public class Employee {
 	
 	@JsonBackReference
 	@ManyToOne
-    @JoinColumn(name = "deptId")
+    @JoinColumn(name = "dept_id")
     private Department department;
 
 	public Employee() {
